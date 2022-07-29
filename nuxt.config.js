@@ -1,7 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  googleAnalytics: {
+    id: 'G-FGV4CQ39VG'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'google-analytics',
@@ -32,6 +34,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
